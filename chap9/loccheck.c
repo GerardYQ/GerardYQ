@@ -10,7 +10,9 @@ int main(void)
     printf("In main(), bah = %d and &bah = %p\n",
            bah, &bah);
     mikado(pooh);
-    
+    char a = 'a';
+    printf(" a = %d and &a = %p\n",
+           a, &a);
     return 0;
 }
 
